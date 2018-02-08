@@ -4,8 +4,8 @@ import Menu from './Menu';
 class App extends React.Component {
   constructor() {
 		super();
-    this.elementosMenu1 = ['Menú vegetariano', 'Menú pizza', 'Carta'];
-    this.elementosMenu2 = ['Menú 2 a', 'Menú 2 b', 'Carta 2'];
+    this.elementosMenu1 = ['Menú 1 a', 'Menú 1 b', 'Menú 1 c'];
+    this.elementosMenu2 = ['Menú 2 a', 'Menú 2 b', 'Menú 2 c'];
   }
   
   render() {
