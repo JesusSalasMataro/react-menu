@@ -1,17 +1,18 @@
 import React from 'react';
 import MenuItem from './MenuItem';
-import Submenu from './Submenu';
 
 class Menu extends React.Component {
+
 	render() {
+		const elementos = this.props.elementos.map((e) => 
+			<MenuItem text={e}/>			
+		);
+
 		return (
 			<ul>
-				<MenuItem text="Menú vegetariano"/>
-				<MenuItem text="Menú pizza"/>
-				<MenuItem text="Carta"/>
-				<Submenu/>			
+				{elementos}			
 			</ul>
-		);
+		)
 	}
 }
 
